@@ -1,0 +1,7 @@
+apiVersion: v2
+name: kargo-demo-prod
+version: 0.0.0
+dependencies:
+  - name: kargo-demo
+    version: 0.0.0
+    repository: "file://../../base"
