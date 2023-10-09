@@ -1,0 +1,13 @@
+configVersion: v1alpha1
+branchConfigs:
+  - name: stage/test
+    appConfigs:
+      demo:
+        configManagement:
+          helm:
+            releaseName: test
+#            namespace: foo #optional
+            chartPath: stages/test
+            valuesPaths:
+              - stages/test/values.yaml
+        outputPath: demo
