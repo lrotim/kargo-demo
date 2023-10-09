@@ -1,2 +1,2 @@
 kargo-demo:
-  stage: "test"
+  stage: "testme"
