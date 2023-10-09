@@ -1,1 +1,2 @@
 stage: "Undefined"
+imageTag: "alpine3.18"
