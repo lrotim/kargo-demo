@@ -6,8 +6,7 @@ branchConfigs:
         configManagement:
           helm:
             releaseName: test
-#            namespace: foo #optional
             chartPath: stages/test
             valuesPaths:
               - stages/test/values.yaml
-        outputPath: demo
+        outputPath: stages/test
